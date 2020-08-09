@@ -1,0 +1,32 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.container {
+    max-width: 1060px;
+}
+.font-thin{
+    font-weight: 300;
+}
+
+.bg-gradient-pink {
+    background-image: linear-gradient(to right, #EC454F, #F44881);
+}
+
+.bg-gradient-blue{
+    background-image: linear-gradient(to right, #637BFF, #21C8F6);
+}
+
+.bg-gradient-teal{
+    background-image: linear-gradient(to right, #1AAB8B, #6EDCC4);
+}
+
+.bg-gradient-yellow{
+    background-image: linear-gradient(to right, #F19A1A, #FFC73C);
+}
+
+.bg-gradient-purple{
+    background-image: linear-gradient(to right, #8B60ED, #B372BD);
+}
